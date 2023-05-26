@@ -4,7 +4,7 @@ Implementation is explained below
 ## Approach
    1. The numpy library is imported to provide support for efficient numerical operations.
    2. A class called MyLinearRegression is defined to encapsulate the functionality of the linear regression model.
-   3.The __init__ method is the constructor of the class. It initializes the learning rate (learning_rate) and the number of iterations (num_iterations) with default values. The weights (weights) and bias (bias) are set to None since they will be assigned during the training process.
+   3. The __init__ method is the constructor of the class. It initializes the learning rate (learning_rate) and the number of iterations (num_iterations) with default values. The weights (weights) and bias (bias) are set to None since they will be assigned during the training process.
    4. The train method takes the input data X and target variable y as arguments and performs the training of the linear regression model.
    5.The number of samples (num_samples) and number of features (num_features) are extracted from the shape of the input data X.
    6.The weights and bias are initialized to zero using np.zeros(num_features) and 0, respectively. The weights are represented as a 1-dimensional array of size num_features.
