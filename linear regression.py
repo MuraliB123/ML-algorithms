@@ -45,5 +45,3 @@ c = model.intercept_
 
 print("Slope (m):", m)
 print("Intercept (c):", c)
-
-
